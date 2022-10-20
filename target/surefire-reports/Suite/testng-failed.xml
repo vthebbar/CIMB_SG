@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="classes">
+  <listeners>
+    <listener class-name="utilities.ListenersImplementation"/>
+    <listener class-name="utilities.TestRetryAnalyzerListener"/>
+  </listeners>
+  <test thread-count="2" verbose="0" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="testCases.TestCase_SampleTest">
+        <methods>
+          <include name="tear_down"/>
+          <include name="launch_application"/>
+          <include name="start_docker_grid"/>
+          <include name="stop_docker_grid"/>
+          <include name="test_verify_title"/>
+        </methods>
+      </class> <!-- testCases.TestCase_SampleTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
