@@ -1,107 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="2" retried="1" total="8" passed="4">
+<testng-results skipped="3" failed="0" ignored="0" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="363609" started-at="2022-10-20T17:01:29 SGT" finished-at="2022-10-20T17:07:33 SGT">
+  <suite name="Suite" duration-ms="302538" started-at="2022-10-21T18:21:14 SGT" finished-at="2022-10-21T18:26:17 SGT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="363609" started-at="2022-10-20T17:01:29 SGT" finished-at="2022-10-20T17:07:33 SGT">
-      <class name="testCases.TestCase_SampleTest">
-        <test-method status="PASS" signature="launch_application()[pri:0, instance:testCases.TestCase_SampleTest@7ae0a9ec]" name="launch_application" is-config="true" duration-ms="82930" started-at="2022-10-20T17:01:50 SGT" finished-at="2022-10-20T17:03:13 SGT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_application -->
-        <test-method status="SKIP" signature="test_verify_title()[pri:0, instance:testCases.TestCase_SampleTest@7ae0a9ec]" name="test_verify_title" duration-ms="543" retried="true" started-at="2022-10-20T17:03:13 SGT" finished-at="2022-10-20T17:03:13 SGT">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [HomePage] but found [Personal Banking | Savings, Credit Cards and Loans | CIMB SG]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [HomePage] but found [Personal Banking | Savings, Credit Cards and Loans | CIMB SG]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:575)
-at org.testng.Assert.assertEquals(Assert.java:585)
-at testCases.TestCase_SampleTest.test_verify_title(TestCase_SampleTest.java:20)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_verify_title -->
-        <test-method status="PASS" signature="tear_down()[pri:0, instance:testCases.TestCase_SampleTest@7ae0a9ec]" name="tear_down" is-config="true" duration-ms="876" started-at="2022-10-20T17:03:13 SGT" finished-at="2022-10-20T17:03:14 SGT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tear_down -->
-        <test-method status="PASS" signature="launch_application()[pri:0, instance:testCases.TestCase_SampleTest@7ae0a9ec]" name="launch_application" is-config="true" duration-ms="63562" started-at="2022-10-20T17:03:14 SGT" finished-at="2022-10-20T17:04:18 SGT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_application -->
-        <test-method status="FAIL" signature="test_verify_title()[pri:0, instance:testCases.TestCase_SampleTest@7ae0a9ec]" name="test_verify_title" duration-ms="35" started-at="2022-10-20T17:04:18 SGT" finished-at="2022-10-20T17:04:18 SGT">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [HomePage] but found [Personal Banking | Savings, Credit Cards and Loans | CIMB SG]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [HomePage] but found [Personal Banking | Savings, Credit Cards and Loans | CIMB SG]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:575)
-at org.testng.Assert.assertEquals(Assert.java:585)
-at testCases.TestCase_SampleTest.test_verify_title(TestCase_SampleTest.java:20)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_verify_title -->
-        <test-method status="PASS" signature="tear_down()[pri:0, instance:testCases.TestCase_SampleTest@7ae0a9ec]" name="tear_down" is-config="true" duration-ms="3024" started-at="2022-10-20T17:04:19 SGT" finished-at="2022-10-20T17:04:22 SGT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tear_down -->
-      </class> <!-- testCases.TestCase_SampleTest -->
+    <test name="Test" duration-ms="302538" started-at="2022-10-21T18:21:14 SGT" finished-at="2022-10-21T18:26:17 SGT">
       <class name="testCases.TestCase_Scenario_0002">
-        <test-method status="PASS" signature="start_docker_grid()[pri:0, instance:testCases.TestCase_Scenario_0002@1972e513]" name="start_docker_grid" is-config="true" duration-ms="20021" started-at="2022-10-20T17:01:29 SGT" finished-at="2022-10-20T17:01:50 SGT">
+        <test-method status="PASS" signature="start_docker_grid()[pri:0, instance:testCases.TestCase_Scenario_0002@305ffe9e]" name="start_docker_grid" is-config="true" duration-ms="9" started-at="2022-10-21T18:21:14 SGT" finished-at="2022-10-21T18:21:14 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start_docker_grid -->
-        <test-method status="PASS" signature="launch_application()[pri:0, instance:testCases.TestCase_Scenario_0002@1972e513]" name="launch_application" is-config="true" duration-ms="83966" started-at="2022-10-20T17:01:50 SGT" finished-at="2022-10-20T17:03:14 SGT">
+        <test-method status="PASS" signature="launch_application()[pri:0, instance:testCases.TestCase_Scenario_0002@305ffe9e]" name="launch_application" is-config="true" duration-ms="99972" started-at="2022-10-21T18:21:14 SGT" finished-at="2022-10-21T18:22:54 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_application -->
-        <test-method status="PASS" signature="test_education_loan_standard_repayment_calculator_scn002(java.lang.Object)[pri:0, instance:testCases.TestCase_Scenario_0002@1972e513]" name="test_education_loan_standard_repayment_calculator_scn002" duration-ms="20732" started-at="2022-10-20T17:03:14 SGT" data-provider="loanData" finished-at="2022-10-20T17:03:34 SGT">
+        <test-method status="PASS" signature="test_education_loan_standard_repayment_calculator_scn002(java.lang.Object)[pri:0, instance:testCases.TestCase_Scenario_0002@305ffe9e]" name="test_education_loan_standard_repayment_calculator_scn002" duration-ms="19748" started-at="2022-10-21T18:22:54 SGT" data-provider="loanData" finished-at="2022-10-21T18:23:14 SGT">
           <params>
             <param index="0">
               <value>
@@ -112,68 +26,283 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_education_loan_standard_repayment_calculator_scn002 -->
-        <test-method status="PASS" signature="tear_down()[pri:0, instance:testCases.TestCase_Scenario_0002@1972e513]" name="tear_down" is-config="true" duration-ms="975" started-at="2022-10-20T17:03:34 SGT" finished-at="2022-10-20T17:03:35 SGT">
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:testCases.TestCase_Scenario_0002@305ffe9e]" name="tear_down" is-config="true" duration-ms="804" started-at="2022-10-21T18:23:14 SGT" finished-at="2022-10-21T18:23:15 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->
-        <test-method status="PASS" signature="launch_application()[pri:0, instance:testCases.TestCase_Scenario_0002@1972e513]" name="launch_application" is-config="true" duration-ms="99062" started-at="2022-10-20T17:03:35 SGT" finished-at="2022-10-20T17:05:14 SGT">
+        <test-method status="FAIL" signature="launch_application()[pri:0, instance:testCases.TestCase_Scenario_0002@305ffe9e]" name="launch_application" is-config="true" duration-ms="181739" started-at="2022-10-21T18:23:15 SGT" finished-at="2022-10-21T18:26:17 SGT">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [80c1080712916d6132f87f07fe670d58, get {url=https://www.cimb.com.sg/en/personal/home.html }]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55064}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55064/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 80c1080712916d6132f87f07fe670d58]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [80c1080712916d6132f87f07fe670d58, get {url=https://www.cimb.com.sg/en/personal/home.html }]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55064}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55064/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 80c1080712916d6132f87f07fe670d58
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:65)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+at testBase.TestBase.launch_application(TestBase.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.TimeoutException
+at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1771)
+at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_application -->
-        <test-method status="PASS" signature="test_education_loan_standard_repayment_calculator_scn002(java.lang.Object)[pri:0, instance:testCases.TestCase_Scenario_0002@1972e513]" name="test_education_loan_standard_repayment_calculator_scn002" duration-ms="16394" started-at="2022-10-20T17:05:14 SGT" data-provider="loanData" finished-at="2022-10-20T17:05:31 SGT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{LoanAmount=20000, Tenure=9}]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="test_education_loan_standard_repayment_calculator_scn002(java.lang.Object)[pri:0, instance:testCases.TestCase_Scenario_0002@305ffe9e]" name="test_education_loan_standard_repayment_calculator_scn002" duration-ms="0" started-at="2022-10-21T18:26:17 SGT" data-provider="loanData" finished-at="2022-10-21T18:26:17 SGT">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [80c1080712916d6132f87f07fe670d58, get {url=https://www.cimb.com.sg/en/personal/home.html }]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55064}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55064/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 80c1080712916d6132f87f07fe670d58]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [80c1080712916d6132f87f07fe670d58, get {url=https://www.cimb.com.sg/en/personal/home.html }]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55064}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55064/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 80c1080712916d6132f87f07fe670d58
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:65)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+at testBase.TestBase.launch_application(TestBase.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.TimeoutException
+at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1771)
+at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_education_loan_standard_repayment_calculator_scn002 -->
-        <test-method status="PASS" signature="tear_down()[pri:0, instance:testCases.TestCase_Scenario_0002@1972e513]" name="tear_down" is-config="true" duration-ms="427" started-at="2022-10-20T17:05:31 SGT" finished-at="2022-10-20T17:05:31 SGT">
+        <test-method status="SKIP" signature="tear_down()[pri:0, instance:testCases.TestCase_Scenario_0002@305ffe9e]" name="tear_down" is-config="true" duration-ms="-1666347977014" started-at="2022-10-21T18:26:17 SGT" finished-at="1970-01-01T07:30:00 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->
-        <test-method status="PASS" signature="launch_application()[pri:0, instance:testCases.TestCase_Scenario_0002@1972e513]" name="launch_application" is-config="true" duration-ms="46999" started-at="2022-10-20T17:05:31 SGT" finished-at="2022-10-20T17:06:18 SGT">
+        <test-method status="SKIP" signature="launch_application()[pri:0, instance:testCases.TestCase_Scenario_0002@305ffe9e]" name="launch_application" is-config="true" duration-ms="-1666347977015" started-at="2022-10-21T18:26:17 SGT" finished-at="1970-01-01T07:30:00 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_application -->
-        <test-method status="PASS" signature="test_education_loan_standard_repayment_calculator_scn002(java.lang.Object)[pri:0, instance:testCases.TestCase_Scenario_0002@1972e513]" name="test_education_loan_standard_repayment_calculator_scn002" duration-ms="10392" started-at="2022-10-20T17:06:18 SGT" data-provider="loanData" finished-at="2022-10-20T17:06:29 SGT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{LoanAmount=30000, Tenure=8}]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="test_education_loan_standard_repayment_calculator_scn002(java.lang.Object)[pri:0, instance:testCases.TestCase_Scenario_0002@305ffe9e]" name="test_education_loan_standard_repayment_calculator_scn002" duration-ms="0" started-at="2022-10-21T18:26:17 SGT" data-provider="loanData" finished-at="2022-10-21T18:26:17 SGT">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [80c1080712916d6132f87f07fe670d58, get {url=https://www.cimb.com.sg/en/personal/home.html }]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55064}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55064/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 80c1080712916d6132f87f07fe670d58]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [80c1080712916d6132f87f07fe670d58, get {url=https://www.cimb.com.sg/en/personal/home.html }]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55064}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55064/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 80c1080712916d6132f87f07fe670d58
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:65)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+at testBase.TestBase.launch_application(TestBase.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.TimeoutException
+at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1771)
+at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_education_loan_standard_repayment_calculator_scn002 -->
-        <test-method status="PASS" signature="tear_down()[pri:0, instance:testCases.TestCase_Scenario_0002@1972e513]" name="tear_down" is-config="true" duration-ms="251" started-at="2022-10-20T17:06:29 SGT" finished-at="2022-10-20T17:06:29 SGT">
+        <test-method status="SKIP" signature="tear_down()[pri:0, instance:testCases.TestCase_Scenario_0002@305ffe9e]" name="tear_down" is-config="true" duration-ms="-1666347977015" started-at="2022-10-21T18:26:17 SGT" finished-at="1970-01-01T07:30:00 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->
-        <test-method status="PASS" signature="launch_application()[pri:0, instance:testCases.TestCase_Scenario_0002@1972e513]" name="launch_application" is-config="true" duration-ms="41793" started-at="2022-10-20T17:06:29 SGT" finished-at="2022-10-20T17:07:11 SGT">
+        <test-method status="SKIP" signature="launch_application()[pri:0, instance:testCases.TestCase_Scenario_0002@305ffe9e]" name="launch_application" is-config="true" duration-ms="-1666347977015" started-at="2022-10-21T18:26:17 SGT" finished-at="1970-01-01T07:30:00 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_application -->
-        <test-method status="PASS" signature="test_education_loan_standard_repayment_calculator_scn002(java.lang.Object)[pri:0, instance:testCases.TestCase_Scenario_0002@1972e513]" name="test_education_loan_standard_repayment_calculator_scn002" duration-ms="10003" started-at="2022-10-20T17:07:11 SGT" data-provider="loanData" finished-at="2022-10-20T17:07:21 SGT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{LoanAmount=40000, Tenure=7}]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="test_education_loan_standard_repayment_calculator_scn002(java.lang.Object)[pri:0, instance:testCases.TestCase_Scenario_0002@305ffe9e]" name="test_education_loan_standard_repayment_calculator_scn002" duration-ms="0" started-at="2022-10-21T18:26:17 SGT" data-provider="loanData" finished-at="2022-10-21T18:26:17 SGT">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [80c1080712916d6132f87f07fe670d58, get {url=https://www.cimb.com.sg/en/personal/home.html }]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55064}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55064/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 80c1080712916d6132f87f07fe670d58]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [80c1080712916d6132f87f07fe670d58, get {url=https://www.cimb.com.sg/en/personal/home.html }]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55064}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55064/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 80c1080712916d6132f87f07fe670d58
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:65)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+at testBase.TestBase.launch_application(TestBase.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+Caused by: java.util.concurrent.TimeoutException
+at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1771)
+at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_education_loan_standard_repayment_calculator_scn002 -->
-        <test-method status="PASS" signature="tear_down()[pri:0, instance:testCases.TestCase_Scenario_0002@1972e513]" name="tear_down" is-config="true" duration-ms="269" started-at="2022-10-20T17:07:21 SGT" finished-at="2022-10-20T17:07:21 SGT">
+        <test-method status="SKIP" signature="tear_down()[pri:0, instance:testCases.TestCase_Scenario_0002@305ffe9e]" name="tear_down" is-config="true" duration-ms="-1666347977017" started-at="2022-10-21T18:26:17 SGT" finished-at="1970-01-01T07:30:00 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_down -->
-        <test-method status="PASS" signature="stop_docker_grid()[pri:0, instance:testCases.TestCase_Scenario_0002@1972e513]" name="stop_docker_grid" is-config="true" duration-ms="12058" started-at="2022-10-20T17:07:21 SGT" finished-at="2022-10-20T17:07:33 SGT">
+        <test-method status="PASS" signature="stop_docker_grid()[pri:0, instance:testCases.TestCase_Scenario_0002@305ffe9e]" name="stop_docker_grid" is-config="true" duration-ms="1" started-at="2022-10-21T18:26:17 SGT" finished-at="2022-10-21T18:26:17 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stop_docker_grid -->

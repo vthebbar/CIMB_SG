@@ -30,4 +30,18 @@
  2022-10-20 17:06:29,064  INFO [TestNG-test=Test-1] MyLogger:64 - ****Completed test for test_education_loan_standard_repayment_calculator_scn002****
  2022-10-20 17:07:11,112  INFO [TestNG-test=Test-1] MyLogger:64 - ****Started test for test_education_loan_standard_repayment_calculator_scn002****
  2022-10-20 17:07:21,115  INFO [TestNG-test=Test-1] MyLogger:64 - ****Completed test for test_education_loan_standard_repayment_calculator_scn002****
+ 2022-10-21 18:17:40,232  INFO [TestNG-test=Test-1] MyLogger:64 - ****Started test for test_education_loan_standard_repayment_calculator_scn002****
+ 2022-10-21 18:18:00,133  INFO [TestNG-test=Test-1] MyLogger:64 - ****Completed test for test_education_loan_standard_repayment_calculator_scn002****
+ 2022-10-21 18:20:42,178  INFO [TestNG-test=Test-1] MyLogger:64 - ****Started test for test_education_loan_standard_repayment_calculator_scn002****
+ 2022-10-21 18:20:46,644  INFO [TestNG-test=Test-1] MyLogger:64 - ****Started test for test_education_loan_standard_repayment_calculator_scn002****
+ 2022-10-21 18:22:54,714  INFO [TestNG-test=Test-1] MyLogger:64 - ****Started test for test_education_loan_standard_repayment_calculator_scn002****
+ 2022-10-21 18:23:14,452  INFO [TestNG-test=Test-1] MyLogger:64 - ****Completed test for test_education_loan_standard_repayment_calculator_scn002****
+ 2022-10-21 18:29:33,435  INFO [TestNG-test=Test-1] MyLogger:64 - ****Started test for test_education_loan_standard_repayment_calculator_scn002****
+ 2022-10-21 18:29:45,021  INFO [TestNG-test=Test-1] MyLogger:64 - ****Completed test for test_education_loan_standard_repayment_calculator_scn002****
+ 2022-10-21 18:30:13,974  INFO [TestNG-test=Test-1] MyLogger:64 - ****Started test for test_education_loan_standard_repayment_calculator_scn002****
+ 2022-10-21 18:30:26,345  INFO [TestNG-test=Test-1] MyLogger:64 - ****Completed test for test_education_loan_standard_repayment_calculator_scn002****
+ 2022-10-21 18:31:13,395  INFO [TestNG-test=Test-1] MyLogger:64 - ****Started test for test_education_loan_standard_repayment_calculator_scn002****
+ 2022-10-21 18:31:23,102  INFO [TestNG-test=Test-1] MyLogger:64 - ****Completed test for test_education_loan_standard_repayment_calculator_scn002****
+ 2022-10-21 18:31:39,283  INFO [TestNG-test=Test-1] MyLogger:64 - ****Started test for test_education_loan_standard_repayment_calculator_scn002****
+ 2022-10-21 18:31:48,406  INFO [TestNG-test=Test-1] MyLogger:64 - ****Completed test for test_education_loan_standard_repayment_calculator_scn002****
  

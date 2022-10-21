@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 import pageObjects.EduLoanStdRepayPageObjects;
 import pageObjects.HomePageObjects;
 import pageObjects.ToolsPageObjects;
+import testBase.ExtentFactory;
 import testBase.TestBase;
 import utilities.ExcelOperations;
 
@@ -22,6 +23,8 @@ public class TestCase_Scenario_0002 extends TestBase {
 		
 			HashMap<String,String> testData = (HashMap<String, String>) obj1;
 		
+			ExtentFactory.get_instance().get_extent().info("Test data used is:" + testData);
+			
 		/*  Environment: https://www.cimb.com.sg/en/personal/home.html 
 			Scenario 2:
 			
